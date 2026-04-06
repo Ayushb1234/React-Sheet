@@ -28,6 +28,15 @@
   color: #61dafb;
 }
 
+.landing-section {
+  min-height: 100vh;   /* full screen hero */
+  padding-bottom: 80px;
+}
+
+.body-section {
+  padding-top: 120px;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

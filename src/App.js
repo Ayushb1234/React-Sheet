@@ -1,14 +1,26 @@
 // import logo from './logo.svg';
 import './App.css';
 import Navbar from './components/Navbar';
+import Landing from './components/Landing';
+import BodyPage from './components/BodyPage';
+import Pricing from './components/Pricing';
 
 function App() {
   return (
-    <>
-  <Navbar brand="Kingfisher"/>
-    
+       <>
+      <section className="landing-section">
+        <Landing />
+      </section>
+
+      <section className="body-section">
+        <BodyPage />
+      </section>
+
+      <section className="pricing-section">
+        <Pricing />
+      </section>
     </>
-    
+
   );
 }
 
